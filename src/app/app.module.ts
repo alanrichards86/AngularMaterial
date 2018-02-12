@@ -10,12 +10,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 //Materials
 import { MaterialModule } from './material/material.module';
 import { MainFormComponent } from './components/main-form/main-form.component';
+import { HomePageComponent } from './components/home-page/home-page.component';
+import { HeaderComponent } from './components/header/header.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainFormComponent
+    MainFormComponent,
+    HomePageComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
