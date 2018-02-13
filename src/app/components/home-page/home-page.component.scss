@@ -1,14 +1,50 @@
 @import '../../../styles.scss';
 
 .mainHomeDiv {
-  height: 635px;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
 .upperSectionDiv {
     background: $mainDeepBlue;
-    height: 35vh;
+    height: 40vh;
     width: 100%;
+    display: flex;
+}
+
+.leftSideDiv {
+  width: 50%;
+  color: $textWhite;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.imgDiv {
+  background: url('../../images/rewards.png') no-repeat;
+  background-size: contain;
+  height: 27vh;
+  width: 20vw;
+  margin-right: 100px;
+  margin-top: 3%;
+  transform: rotate(-18deg);
+}
+
+.rightSideDiv {
+  width: 50%;
+  color: $textWhite;
+}
+
+.languageDiv > a {
+  padding: 0;
+  min-width: 3.5em;
+}
+
+.upperSectionP {
+  width: 56%;
+  font-size: 1.6em;
+  line-height: 1.3em;
+  font-family:  Times, serif;
 }
 
 .lowerSectionDiv {
@@ -20,7 +56,3 @@
 .tile-2 {
   background: $mainLightBlue;
 }
-
-// .tile-1 {
-//     height:300px;
-// }
