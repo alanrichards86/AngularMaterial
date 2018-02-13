@@ -1,0 +1,26 @@
+@import '../../../styles.scss';
+
+.mainHomeDiv {
+  height: 635px;
+  width: 100%;
+}
+
+.upperSectionDiv {
+    background: $mainDeepBlue;
+    height: 35vh;
+    width: 100%;
+}
+
+.lowerSectionDiv {
+  background: $mainLightBlue;
+  height: 61vh;
+  width: 100%;
+}
+
+.tile-2 {
+  background: $mainLightBlue;
+}
+
+// .tile-1 {
+//     height:300px;
+// }
