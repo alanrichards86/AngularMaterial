@@ -59,3 +59,34 @@ h1 {
 .tile-2 {
   background: $mainLightBlue;
 }
+
+.lowerLeftDiv {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.lowerTextDiv {
+  width: 50%;
+  height: 62%;
+  position: relative;
+  top: 23%;
+  background-color: $mainDeepBlue;
+  color: $textWhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lowerTextDiv > h2 {
+  margin-top: 0;
+  font-size: xx-large;
+}
+
+.lowerTextUl {
+  font-size: 1.5em;
+  margin: 0;
+  line-height: 1.7em;
+}

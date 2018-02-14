@@ -12,6 +12,7 @@ import { MaterialModule } from './material/material.module';
 import { SignupFormComponent } from './components/home-page/signup-form/signup-form.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { HeaderComponent } from './components/header/header.component';
+import { ActivateCardFormComponent } from './components/home-page/activate-card-form/activate-card-form.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { HeaderComponent } from './components/header/header.component';
     AppComponent,
     SignupFormComponent,
     HomePageComponent,
-    HeaderComponent
+    HeaderComponent,
+    ActivateCardFormComponent
   ],
   imports: [
     BrowserModule,
