@@ -35,9 +35,16 @@
   color: $textWhite;
 }
 
+.languageDiv {
+  position: relative;
+  top: 10px;
+}
+
 .languageDiv > a {
   padding: 0;
   min-width: 3.5em;
+  color: rgb(164, 198, 81);
+  font-size: 1rem;
 }
 
 h1 {
@@ -87,8 +94,9 @@ h1 {
 }
 
 .lowerTextUl {
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin: 0;
+  padding-left: 0;
   line-height: 1.7em;
 }
 
