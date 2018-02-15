@@ -14,6 +14,9 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ActivateCardFormComponent } from './components/home-page/activate-card-form/activate-card-form.component';
 
+//Forms
+import { FormsModule } from '@angular/forms/';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +29,8 @@ import { ActivateCardFormComponent } from './components/home-page/activate-card-
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
