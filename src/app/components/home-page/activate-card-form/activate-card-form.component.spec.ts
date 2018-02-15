@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MainFormComponent } from './main-form.component';
+import { ActivateCardFormComponent } from './activate-card-form.component';
 
-describe('MainFormComponent', () => {
-  let component: MainFormComponent;
-  let fixture: ComponentFixture<MainFormComponent>;
+describe('ActivateCardFormComponent', () => {
+  let component: ActivateCardFormComponent;
+  let fixture: ComponentFixture<ActivateCardFormComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MainFormComponent ]
+      declarations: [ ActivateCardFormComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MainFormComponent);
+    fixture = TestBed.createComponent(ActivateCardFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

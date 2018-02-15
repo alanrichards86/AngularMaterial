@@ -1,0 +1,32 @@
+@import '../../../styles.scss';
+
+.header {
+  background: $mainRed;
+  color: $textWhite;
+  min-height: 0;
+  height: 58px;
+}
+
+.localSpan {
+  font-size: 1.8em;
+  font-family: Arial Condensed, Helvetica, sans-serif
+}
+
+.pharmacySpan {
+  margin-left: 2px;
+  margin-top: 10px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.partnerSpan {
+  font-size: .5em;
+}
+
+.companySpan {
+  font-size: 24px;
+  margin-left: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
