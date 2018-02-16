@@ -30,7 +30,10 @@
     background: white;
     height: 51px;
     margin-top: 0;
-    text-decoration: none;
+}
+
+.btnDiv {
+    display: flex;
 }
 
 .signUpBtn {
@@ -40,4 +43,14 @@
     height: 7.1vh;
     width: 11.1vw;
     font-size: 1.3rem;
+    margin-right: 15px;
+    color: $mainDeepBlue;
+}
+
+.memberSignIn {
+    color: $mainDeepBlue;
+}
+
+.memberSignInLink {
+    color: $mainDeepBlue;
 }

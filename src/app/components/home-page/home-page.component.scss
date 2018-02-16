@@ -80,6 +80,7 @@ h1 {
   height: 62%;
   position: relative;
   top: 23%;
+  left: 60px;
   background-color: $mainDeepBlue;
   color: $textWhite;
   display: flex;
@@ -90,11 +91,11 @@ h1 {
 
 .lowerTextDiv > h2 {
   margin-top: 0;
-  font-size: xx-large;
+  font-size: 2rem;
 }
 
 .lowerTextUl {
-  font-size: 1.3em;
+  font-size: 1.4vw;
   margin: 0;
   padding-left: 0;
   line-height: 1.7em;
