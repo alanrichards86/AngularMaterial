@@ -32,6 +32,11 @@
     margin-top: 0;
 }
 
+ ::ngDeep span label {
+    top: 10px;
+    color: red;
+}
+
 .btnDiv {
     display: flex;
 }
@@ -49,6 +54,7 @@
 
 .memberSignIn {
     color: $mainDeepBlue;
+
 }
 
 .memberSignInLink {
