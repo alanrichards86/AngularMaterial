@@ -32,10 +32,14 @@
     margin-top: 0;
 }
 
- ::ngDeep span label {
-    top: 10px;
+.placeHolder {
     color: red;
+    top: 10px;
 }
+
+// .mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
+//     position: relative;
+// }
 
 .btnDiv {
     display: flex;

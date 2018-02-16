@@ -89,9 +89,13 @@ h1 {
   align-items: center;
 }
 
-.lowerTextDiv > h2 {
+.mat-card-content[_ngcontent-c2], .mat-card-header[_ngcontent-c2] .mat-card-title[_ngcontent-c2], .mat-card-subtitle[_ngcontent-c2] {
   margin-top: 0;
-  font-size: 2rem;
+  font-size: 2vw;
+}
+
+.listItem {
+  list-style-type: circle;
 }
 
 .lowerTextUl {

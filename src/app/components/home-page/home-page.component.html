@@ -23,14 +23,20 @@
     </div>
     <div class="lowerSectionDiv">
         <div class="lowerLeftDiv">
-            <div class="lowerTextDiv">
-                <h2>Make your life easier.</h2>
-                <ul class="lowerTextUl">
-                    <li>Get alerts and savings tips</li>
-                    <li>Reload online or instore for free</li>
-                    <li>Track spending online</li>
-                </ul>
-            </div>
+            <!-- <div class="lowerTextDiv"> -->
+                <mat-card class="lowerTextDiv">
+                    <mat-card-header>
+                        <mat-card-title class="cardHeaderTitle">Make your life easier. </mat-card-title>
+                    </mat-card-header>
+                <!-- <h2>Make your life easier.</h2> -->
+                    <mat-list class="lowerTextUl">
+                        <li>Get alerts and savings tips</li>
+                        <li>Reload online or instore for free</li>
+                        <li>Track spending online</li>
+                    </mat-list>
+                </mat-card>
+                
+            <!-- </div> -->
         </div>
         <div class="lowerRightDiv">
             <app-activate-card-form></app-activate-card-form>
