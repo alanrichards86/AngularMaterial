@@ -34,12 +34,9 @@
 
 .placeHolder {
     color: red;
-    top: 10px;
+    position: relative;
+    top: 8px;
 }
-
-// .mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
-//     position: relative;
-// }
 
 .btnDiv {
     display: flex;
