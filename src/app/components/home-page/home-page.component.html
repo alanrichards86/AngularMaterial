@@ -12,9 +12,12 @@
                     <a mat-button color="accent" href="#">English</a>
                     <span> / </span>
                     <a mat-button color="accent" href="#">Espanol</a>
+                    <div class="checkBalanceDiv">
+                        <button mat-button class="checkBalanceBtn">Check My Balance</button >
+                    </div>
                 </div>
                 <h1>A Better Way To Budget</h1>
-                <!-- <br> -->
+
                 <p class="upperSectionP">Stay in control of your spending with our prepaid pharmacy
                    card. Available to anyone- <strong>at $0 cost of fees.</strong> 
                 </p>
@@ -23,15 +26,24 @@
     </div>
     <div class="lowerSectionDiv">
         <div class="lowerLeftDiv">
-            <div class="lowerTextDiv">
-                <h2>Make your life easier.</h2>
-                <ul class="lowerTextUl">
-                    <li>Get alerts and savings tips</li>
-                    <li>Reload online or instore for free</li>
-                    <li>Track spending online</li>
-                </ul>
-            </div>
+            <!-- <div class="lowerTextDiv"> -->
+                <mat-card class="lowerTextDiv">
+                    <mat-card-header>
+                        <mat-card-title class="cardHeaderTitle">Make your life easier.</mat-card-title>
+                    </mat-card-header>
+                <!-- <h2>Make your life easier.</h2> -->
+                    <mat-list class="lowerTextUl">
+                        <li>Get alerts and savings tips</li>
+                        <li>Reload online or instore for free</li>
+                        <li>Track spending online</li>
+                    </mat-list>
+                </mat-card>
+                
+            <!-- </div> -->
         </div>
+        <div class="lowerRightDiv">
+            <app-activate-card-form></app-activate-card-form>
+         </div>
     </div>
 </div>
 

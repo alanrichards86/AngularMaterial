@@ -35,9 +35,34 @@
   color: $textWhite;
 }
 
+.languageDiv {
+  position: relative;
+  top: 10px;
+  display: flex;
+  width: 31.6vw;
+}
+
 .languageDiv > a {
   padding: 0;
   min-width: 3.5em;
+  color: $mainLightGreen;
+  font-size: 1rem;
+}
+
+.languageDiv > span {
+  align-self: center;
+  margin: 0 4px;
+  color: $mainLightGreen;
+  font-size: 17.5px;
+  font-weight: bold;
+}
+
+.checkBalanceDiv {
+  margin-left: 11.6vw;
+}
+
+.checkBalanceBtn {
+  background: $mainLightGreen;
 }
 
 h1 {
@@ -54,6 +79,7 @@ h1 {
   background: $mainLightBlue;
   height: 61vh;
   width: 100%;
+  display: flex;
 }
 
 .tile-2 {
@@ -68,10 +94,12 @@ h1 {
 }
 
 .lowerTextDiv {
-  width: 50%;
-  height: 62%;
+  padding: 0;
+  width: 25vw;
+  height: 30.1vh;
   position: relative;
   top: 23%;
+  left: 60px;
   background-color: $mainDeepBlue;
   color: $textWhite;
   display: flex;
@@ -80,13 +108,20 @@ h1 {
   align-items: center;
 }
 
-.lowerTextDiv > h2 {
-  margin-top: 0;
-  font-size: xx-large;
+.mat-card-content[_ngcontent-c2], .mat-card-header[_ngcontent-c2] .mat-card-title[_ngcontent-c2], .mat-card-subtitle[_ngcontent-c2] {
+  margin: 0;
+  font-size: 2.2vw;
 }
 
 .lowerTextUl {
-  font-size: 1.5em;
+  font-size: 1.3vw;
+  font-family: sarif;
   margin: 0;
-  line-height: 1.7em;
+  padding-left: 0;
+  padding-top: 11px;
+  line-height: 2.1em;
+}
+
+.lowerRightDiv {
+  width: 50%;
 }
