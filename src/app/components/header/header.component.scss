@@ -32,3 +32,32 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+
+//            -------------------------------------------------- Breakpoints --------------------------------------------------
+@include for-size(phone-only) {
+  
+  .header {
+    height: 5.2vh;
+  }
+
+  .localSpan {
+    font-size: 1.1em;
+  }
+
+  .pharmacySpan {
+    margin-top: 3px;
+    font-size: 1rem;
+  }
+
+  .partnerSpan {
+    display: none;
+  }
+
+  .companySpan {
+    display: none;
+  }
+
+
+
+}
+

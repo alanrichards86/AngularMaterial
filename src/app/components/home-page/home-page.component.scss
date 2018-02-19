@@ -125,3 +125,15 @@ h1 {
 .lowerRightDiv {
   width: 50%;
 }
+
+//            -------------------------------------------------- Breakpoints --------------------------------------------------
+
+@include for-size(phone-only) {
+  .checkBalanceDiv {
+    display: none;
+  }
+  
+  .upperSectionP {
+    display: none;
+  }
+}
