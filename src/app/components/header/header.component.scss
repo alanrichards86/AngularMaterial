@@ -57,7 +57,16 @@
     display: none;
   }
 
+  .menuDiv-Mobile {
+    height: 4.9vh;
+    width: 10vw;
+  }
 
+  .menuImgDiv {
+    background: url('../../images/Hamburger_icon.png') no-repeat;
+    background-size: contain;
+    height: 100%;
+  }
 
 }
 
